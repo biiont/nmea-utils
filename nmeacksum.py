@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
 
+### TODO: Add option to calc checksum with '$' and '*' symbols and without (some implementations do break standard).
+### TODO: Add option to read checksums from multiple files.
+### TODO: Add mode to check one sentence (either cmdline or stdin or file) and return appropriate error code.
+### TODO: Add mode to filter NMEA sentences by their checksum.
+### TODO: Add mode to fix NMEA checksums (to work in pipe mode mostly, probably this mode should be used by default).
+
 from __future__ import generators
 
 import argparse
